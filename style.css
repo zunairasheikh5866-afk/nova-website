@@ -1,0 +1,282 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdfcf8;
+    color: #111;
+}
+
+/* ---------- NAVBAR ---------- */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    width: 80px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.lang {
+    color: rgb(185, 138, 57);
+    font-size: 18px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.text {
+    flex: 1;
+}
+
+.pic {
+    flex: 1;
+}
+
+.small {
+    color: #b98a6e;
+    font-weight: bold;
+}
+
+.grey {
+    color: gray;
+    font-size: 18px;
+}
+
+/* ---------- BUTTONS----------------------------------------------------------------------------------------- */
+.btn {
+    display: inline-block;
+    padding: 14px 28px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.light {
+    background-color: white;
+    border: 1px solid #ccc;
+    color: black;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 40px;
+}
+
+/* ---------- IMAGES---------- */
+.hero-img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 45% 35% 30% 20%;
+}
+
+.about-img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.links a {
+    margin: 30px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h1 span {
+    color: #b98a6e;
+    font-size: 40px;
+}
+
+
+h2 {
+    font-size: 36px;
+}
+
+.hero-img,
+.about-img {
+    height: 300px;
+}
+
+
+.member {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: -10px;
+    border: solid 1px rgb(163, 131, 83);
+}
+
+.team {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+
+/* ---------- SECTION SERVICES and CARDS---------------------- */
+#services {
+    gap: 50px;
+    padding: 40px;
+}
+
+#txtcrd {
+    justify-content: space-between;
+    margin: 10px;
+    display: flex;
+    gap: 70px;
+}
+
+#txtcrd,
+h1,
+h5 {
+    color: #111;
+}
+
+#txtcrd,
+p {
+    align-items: end;
+    color: gray;
+    font-size: small;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid rgb(199, 193, 193);
+    border-radius: 20px;
+}
+
+.card h3 {
+    font-size: 20px;
+
+}
+
+.card span {
+    color: rgb(128, 111, 94);
+    font-weight: lighter;
+}
+
+/*------------------------------------Selected work=--------------------------------------------*/
+#work {
+    gap: 150px;
+    padding: 60px;
+}
+.work {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+}
+.w1 {
+    background-image: url(/images/workimg.jpg);
+}
+.w2 {
+    background-image: url(/images/workingimg.jpg);
+}
+
+/*-----------section review-------------------------------------------------------------------------*/
+#reviews {
+    padding: 30px;
+    gap: 50px;
+}
+
+.Rcards {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.Rcard {
+    display: grid;
+    flex: 1;
+    border-radius: 20px;
+    height: auto;
+    padding: 10px;
+    border: 1px solid rgb(133, 54, 70);
+}
+
+.Rcard p {
+    font-size: 13px;
+    color: #7e6969;
+}
+
+.userpic {
+    width: 40px;
+    height: 40px;
+    border-radius: 28px;
+}
+
+/*------------------------------ Section Footer------------------------------- */
+#contact {
+    padding: 80px;
+    gap: 30px;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(./images/bgimg.jpg);
+}
+
+.contact h1 {
+    color: aliceblue;
+    font-size: 5vw;
+    font-weight: normal;
+}
+
+.contact p {
+    font-size: 15px;
+    color: white;
+    font-weight: 200;
+}
+
+#contact>div p {
+    color: rgb(184, 192, 198);
+}
+
+.cookies {
+    color: rgb(184, 192, 198);
+}
+
+.footrlnk {
+    color: rgb(184, 192, 198);
+}
+
+.footerlinks {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 11px;
+}
+
+.footertxt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footertxt p {
+    font-size: x-small
+}
